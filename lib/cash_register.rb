@@ -1,6 +1,6 @@
 class CashRegister
   attr_accessor :total
-  attr_reader :items
+
 
   @items = []
 
