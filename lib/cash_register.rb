@@ -2,7 +2,7 @@ class CashRegister
   attr_accessor :total, :discount
   attr_reader :items
 
-  @items_array =
+  @items_array = []
 
   def initialize(discount=0)
     @discount = discount
